@@ -1,1 +1,10 @@
-
+{
+  "version": 2,
+   "name": "Public-APIs",
+  "builds": [
+    { "src": "./index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Akinator API",
+  "version": "1.0.0",
+  "description": "Akinator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samir Œ",
+  "license": "ISC",
+  "dependencies": {
+    "aki-api": "^6.0.9",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "npm": "^10.5.0",
+    }
+}
